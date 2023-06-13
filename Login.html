@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>예라 포트폴리오</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <ul class="utility">
+            <li>
+            <li id="admin_li" style="display: none;">
+                <a href="./admin.html" id="admin_btn">ADMIN</a>
+            </li>
+            <li>
+            <li id="join_li">
+                <a href="./Join.html">JOIN</a>
+            </li>
+            </li>
+            <li>
+            <li id="login_li">
+                <a href="./Login.html">LOGIN</a>
+            </li>
+            <li id="logout_li" style="display: none;">
+                <a href="#" id="logout_btn">LOGOUT</a>
+            </li>
+        </ul>
+        <div class="nav">
+            <div class="profile_img">
+                <img src="./images/profile_img.png" alt="전예라 미모티콘">
+            </div>
+            <ul>
+                <li class="on">
+                    <a href="./index.html#section_1" class="font">HOME</a>
+                </li>
+                <li>
+                    <a href="./index.html#section_2" class="font">ABOUT</a>
+                </li>
+                <li>
+                    <a href="./index.html#section_3" class="font">INTEREST</a>
+                </li>
+                <li>
+                    <a href="./index.html#section_4" class="font">ROADMAP</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="bar_color">
+                <div class="progress_container">
+                    <div class="progress_bar"></div>
+                    <div class="hodu_img">
+                        <img src="./images/hodu_profile_img.png" alt="호두 프로필">
+                    </div>
+                </div>
+            </div>
+            <div class="Login">
+                <form action="javascript:alert('💜로그인 되었습니다💜');" name="loginFrm" class="alert">
+                    <div class="Login_table">
+                        <h3 class="Login_title">💛로그인💛</h3>
+                        <div class="Login_01">아이디</div>
+                        <td>
+                            <br>
+                            <input class="login_graph" type="text" name="loginId" id="loginId">
+                        </td>
+                        <div class="Login_01">비밀번호</div>
+                        <td>
+                            <br>
+                            <input class="login_graph" type="password" name="loginPwd" id="loginPwd">
+                        </td>
+                        <div class="btn-wrapper">
+                            <button type="button" id="login_btn"><span class="login_btn">로그인</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.7.0.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/join.js"></script>
+    <script src="./js/admin.js"></script>
+    </div>
+</body>
+
+</html>

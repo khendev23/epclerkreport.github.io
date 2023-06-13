@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../web_client_workspace"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../hereOrientalMedicine"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "kh_front_project"
+	}
+}

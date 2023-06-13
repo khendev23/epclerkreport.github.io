@@ -1,0 +1,577 @@
+/* common */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+/* style */
+.wrapper {
+	margin-left: 60px;
+	position: relative;
+	background: #fff;
+}
+
+.nav {
+	width: 280px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 200px 40px;
+	background: #F2D8D8;
+}
+
+.nav-top {
+	height: 20px;
+	display: fixed;
+	justify-content: flex-end;
+	background: #F2D8D8;
+}
+
+.nav .profile_img {
+	width: 180px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background: #fff;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.nav ul li.on a {
+	color: #5C8984;
+}
+
+/* { max-width:1024px;} */
+
+/* 왼쪽 사이드바 폰트 */
+@font-face {
+	font-family: 'Blinker-Bold';
+	src: url('../font/Blinker-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Blinker-Light';
+	src: url('../font/Blinker-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumSquareL';
+	src: url('../font/NanumSquareL.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'NanumSquareB';
+	src: url('../font/NanumSquareB.otf') format('truetype');
+}
+
+.font {
+	font-family: "Blinker-Bold";
+	font-size: 170%;
+	line-height: 50px;
+	text-align: center;
+	color: #374259;
+}
+
+
+/* 회원가입, 로그인 버튼 */
+.utility {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	padding: 10px 100px;
+	padding-top: 60px;
+}
+
+.container {}
+
+/* 상단 스크롤바 */
+.container .progress_container {
+	width: calc(100% - 450px);
+	height: 4px;
+	position: fixed;
+	top: 30px;
+	right: 0;
+	margin-right: 100px;
+	background: #f1f1f1;
+}
+
+/* 상단 스크롤바 게이지*/
+.container .progress_container .progress_bar {
+	width: 0%;
+	height: 100%;
+	background: #5C8984;
+}
+
+/* 상단 스크롤바 호두 얼굴 */
+.container .progress_container .hodu_img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	transform: translate(-50%, -50%)
+}
+
+.container .progress_container .hodu_img img {
+	object-fit: cover;
+	height: 100%;
+}
+
+.container .bar_color {
+	width: 100%;
+	contain: fixed;
+	position: fixed;
+	padding: 15px;
+	margin-left: 300px;
+	background-color: #fff;
+}
+
+/* 섹션 중간중간 회색 선 */
+.container .section+.section {
+	border-top: 1px solid #E6E6E6;
+}
+
+
+/* 각 페이지 섹션 */
+.container .section_1 {
+	padding: 360px 300px;
+	height: 900px;
+}
+
+.container .section_2 {
+	padding: 100px 300px;
+}
+
+.container .section_3 {
+	padding: 100px 300px;
+}
+
+.container .section_4 {
+	padding: 100px 300px;
+}
+
+.container .section_5 {
+	padding: 100px 300px;
+}
+
+/* home */
+.social {
+	display: flex;
+	margin-top: 50px;
+}
+
+.social li {
+	width: 50px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.sub_title {
+	font-family: 'Blinker-Light';
+	font-weight: 600;
+	font-size: 150%;
+	color: #646464;
+	margin-top: -160px;
+}
+
+.title {
+	font-family: "Blinker-Bold";
+	font-size: 600%;
+	margin-top: -14px;
+	color: #374259;
+}
+
+.content span {
+	color: #5C8984
+}
+
+.kh_date {
+	font-family: 'NanumSquareB';
+	font-size: 90%;
+	color: #5C8984;
+}
+
+.kh_java {
+	font-family: 'NanumSquareL';
+	font-weight: 100;
+	font-size: 83%;
+	color: #3c3c3c;
+	margin-left: 32px;
+	margin-top: -30px;
+}
+
+/* about */
+.like_list {
+	display: flex;
+}
+
+.like_list li {
+	width: 15%;
+	border: 1px solid rgb(206, 206, 206);
+	margin-right: 30px;
+	margin-top: 40px;
+}
+
+/* interest */
+.gallery_wrap {
+	position: relative;
+	width: 620px;
+	height: 266px;
+	overflow: hidden;
+}
+
+.gallery_wrap .gallery {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+}
+
+.gallery_wrap .gallery li {
+	width: 200px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+/* 호두 사진 슬라이드 버튼 */
+.button_box {
+	margin-left: 21.5%;
+	cursor: pointer;
+}
+
+.prev_btn {
+	width: 25px;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.next_btn {
+	width: 25px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+/* top button */
+.to_top_btn {
+	position: fixed;
+	width: 50px;
+	bottom: 40px;
+	right: 90px;
+	cursor: pointer;
+}
+
+/* 각 페이지 타이틀 폰트*/
+.title2 {
+	font-family: "Blinker-Bold";
+	font-size: 350%;
+	text-align: left;
+	margin-top: -5px;
+	color: #374259;
+}
+
+/* 각 페이지 부제목 폰트*/
+.title3 {
+	font-family: "Blinker-Bold";
+	font-size: 180%;
+	line-height: 45px;
+	margin-top: 30px;
+	color: #5C8984;
+}
+
+/* 홈 본문 폰트 */
+.desc0 {
+	font-family: "NanumSquareL";
+	font-size: 125%;
+	margin-top: 40px;
+	line-height: 170%;
+}
+
+/* 나머지 본문 폰트 */
+.desc {
+	font-family: "NanumSquareL";
+	font-size: 100%;
+	margin-top: 10px;
+	line-height: 170%;
+}
+
+.content strong {
+	font-weight: bold;
+	font-size: 125%;
+	color: #374259;
+}
+
+/* ROADMAP */
+.ROADMAP {
+	width: 70%;
+	margin-left: -50px;
+	margin-top: 10px;
+}
+
+/* TECH STACK */
+.TeachStack {
+	width: 150%;
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.TeachStack .java_1 {
+	width: 65px;
+	height: 3px;
+}
+
+li {
+	list-style: none;
+}
+
+/* 회원가입 style */
+
+/* 테이블*/
+.table {
+	border: 1px solid rgb(177, 177, 177);
+	border-radius: 2%;
+	border-spacing: 10px;
+	width: 800px;
+	height: 800px;
+	margin-top: -260px;
+	margin-left: 100px;
+}
+
+/* 적는 칸 */
+.graph {
+	width: 550px;
+	margin-left: 120px;
+}
+
+.Join_phone {
+	margin-left: 120px;
+}
+
+/* 이름 */
+.Join_01 {
+	font-family: "NanumSquareL";
+	font-size: 100%;
+	text-align: left;
+	margin-left: 118px;
+	margin-bottom: -10px;
+	margin-top: 20px;
+}
+
+#id {
+	margin-top: 50px;
+}
+
+/* 하단 버튼 */
+.btn-wrapper {
+	margin: 40px 0 91px;
+	text-align: center;
+}
+
+#join_btn {
+	width: 200px;
+	height: 50px;
+	border: 1px solid white;
+	font-family: "NanumSquareL";
+	font-weight: bold;
+	font-size: 100%;
+	background-color: rgb(255, 230, 0);
+	cursor: pointer;
+}
+
+/* - */
+span.dash {
+	font-family: "NanumSquareL";
+	font-size: 20%;
+	margin-left: 5px;
+}
+
+/* * */
+span.req {
+	color: red;
+}
+
+/* 회원가입 타이틀 */
+.Join_title {
+	font-size: 200%;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+/* 에러 메세지 */
+.err {
+	margin-left: 120px;
+	font-size: 12px;
+	color: red;
+	display: none;
+}
+
+.err2 {
+	margin-left: 120px;
+	font-size: 12px;
+	color: red;
+	display: none;
+}
+
+
+
+/* 로그인 style */
+
+/* 테이블*/
+.Login_table {
+	border: 1px solid rgb(177, 177, 177);
+	border-radius: 2%;
+	border-spacing: 10px;
+	width: 800px;
+	height: 600px;
+	margin-top: -190px;
+	margin-left: 100px;
+}
+
+/* 타이틀 */
+.Login_title {
+	font-size: 200%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+/* 적는 칸 */
+.login_graph {
+	width: 300px;
+	height: 20px;
+	margin-left: 245px;
+}
+
+/* 이름 */
+.Login_01 {
+	font-family: "NanumSquareL";
+	font-size: 100%;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+/* 로그인 버튼 */
+#login_btn {
+	width: 200px;
+	height: 50px;
+	border: 1px solid white;
+	font-family: "NanumSquareL";
+	font-weight: bold;
+	font-size: 100%;
+	background-color: rgb(255, 230, 0);
+	cursor: pointer;
+}
+
+
+
+/* 어드민 페이지 */
+
+/* 테이블*/
+.table_admin {
+	border: 1px solid rgb(177, 177, 177);
+	border-radius: 2%;
+	border-spacing: 10px;
+	width: 800px;
+	height: 700px;
+	margin-top: -220px;
+	margin-left: 100px;
+}
+
+/* 타이틀 */
+.admin_title {
+	font-family: "NanumSquareL";
+	font-size: 200%;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	margin-right: 260px;
+	margin-left: 250px;
+}
+
+#user_list {
+	margin-left: 110px;
+}
+
+.list {
+	font-family: "NanumSquareB";
+}
+
+th,
+td {
+	font-family: "NanumSquareL";
+	border: 1px solid #000;
+	padding: 5px;
+	margin-left: 100px;
+}
+
+.container .admin {
+	padding: 360px 300px;
+	height: 900px
+}
+
+.container .Join {
+	padding: 360px 300px;
+	height: 900px
+}
+
+.container .Login {
+	padding: 360px 300px;
+	height: 900px
+}

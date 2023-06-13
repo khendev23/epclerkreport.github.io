@@ -1,0 +1,468 @@
+%!Adobe-FontList 1.23
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-Black
+FamilyName:Blinker
+StyleName:Black
+FullName:Blinker Black
+MenuName:Blinker Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:81412
+FileModTime:1548188086
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Blinker Black
+NameArray:0,Win,1,Blinker Black
+NameArray:0,Win,16,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-Bold
+FamilyName:Blinker
+StyleName:Bold
+FullName:Blinker Bold
+MenuName:Blinker
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:76276
+FileModTime:1548188086
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Blinker Bold
+NameArray:0,Win,1,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-ExtraBold
+FamilyName:Blinker
+StyleName:ExtraBold
+FullName:Blinker ExtraBold
+MenuName:Blinker ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:83100
+FileModTime:1548188086
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Blinker ExtraBold
+NameArray:0,Win,1,Blinker ExtraBold
+NameArray:0,Win,16,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-Headline
+FamilyName:Blinker
+StyleName:Headline
+FullName:Blinker Headline
+MenuName:Blinker Headline
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-Headline.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:84956
+FileModTime:1548188086
+WeightClass:900
+WidthClass:4
+AngleClass:0
+NameArray:0,Mac,4,Blinker Headline
+NameArray:0,Win,1,Blinker Headline
+NameArray:0,Win,16,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-Light
+FamilyName:Blinker
+StyleName:Light
+FullName:Blinker Light
+MenuName:Blinker Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:75092
+FileModTime:1548188086
+WeightClass:200
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Blinker Light
+NameArray:0,Win,1,Blinker Light
+NameArray:0,Win,16,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-Regular
+FamilyName:Blinker
+StyleName:Regular
+FullName:Blinker
+MenuName:Blinker
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:74980
+FileModTime:1548188086
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Blinker Regular
+NameArray:0,Mac,4,Blinker
+NameArray:0,Win,1,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-SemiBold
+FamilyName:Blinker
+StyleName:SemiBold
+FullName:Blinker SemiBold
+MenuName:Blinker SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:82144
+FileModTime:1548188086
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Blinker SemiBold
+NameArray:0,Win,1,Blinker SemiBold
+NameArray:0,Win,16,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-SemiLight
+FamilyName:Blinker
+StyleName:SemiLight
+FullName:Blinker SemiLight
+MenuName:Blinker SemiLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-SemiLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:76384
+FileModTime:1548188086
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Blinker SemiLight
+NameArray:0,Win,1,Blinker SemiLight
+NameArray:0,Win,16,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Blinker-Thin
+FamilyName:Blinker
+StyleName:Thin
+FullName:Blinker Thin
+MenuName:Blinker Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\Blinker-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:73496
+FileModTime:1548188086
+WeightClass:100
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Blinker Thin
+NameArray:0,Win,1,Blinker Thin
+NameArray:0,Win,16,Blinker
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTFB
+FamilyName:NanumSquareOTF
+StyleName:Bold
+FullName:NanumSquareOTF Bold
+MenuName:나눔스퀘어OTF Bold
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF
+StyleNameNative:Bold
+FullNameNative:나눔스퀘어OTF Bold
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareB.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:514816
+FileModTime:1474445892
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF Bold
+NameArray:3,Mac,4,나눔스퀘어OTF Bold
+NameArray:0,Win,1,NanumSquareOTF Bold
+NameArray:0,Win,16,NanumSquareOTF
+NameArray:3,Win,1,나눔스퀘어OTF Bold
+NameArray:3,Win,16,나눔스퀘어OTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTFEB
+FamilyName:NanumSquareOTF
+StyleName:ExtraBold
+FullName:NanumSquareOTF ExtraBold
+MenuName:나눔스퀘어OTF ExtraBold
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF
+StyleNameNative:ExtraBold
+FullNameNative:나눔스퀘어OTF ExtraBold
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareEB.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:523540
+FileModTime:1474445892
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF ExtraBold
+NameArray:3,Mac,4,나눔스퀘어OTF ExtraBold
+NameArray:0,Win,1,NanumSquareOTF ExtraBold
+NameArray:0,Win,16,NanumSquareOTF
+NameArray:3,Win,1,나눔스퀘어OTF ExtraBold
+NameArray:3,Win,16,나눔스퀘어OTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTFL
+FamilyName:NanumSquareOTF
+StyleName:Light
+FullName:NanumSquareOTF Light
+MenuName:나눔스퀘어OTF Light
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF
+StyleNameNative:Light
+FullNameNative:나눔스퀘어OTF Light
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareL.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:514976
+FileModTime:1474445892
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF Light
+NameArray:3,Mac,4,나눔스퀘어OTF Light
+NameArray:0,Win,1,NanumSquareOTF Light
+NameArray:0,Win,16,NanumSquareOTF
+NameArray:3,Win,1,나눔스퀘어OTF Light
+NameArray:3,Win,16,나눔스퀘어OTF
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTF_acB
+FamilyName:NanumSquareOTF_ac
+StyleName:Bold
+FullName:NanumSquareOTF_ac Bold
+MenuName:나눔스퀘어OTF_ac Bold
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF_ac
+StyleNameNative:Bold
+FullNameNative:나눔스퀘어OTF_ac Bold
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareOTF_acB.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:309976
+FileModTime:1508901806
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF_ac Bold
+NameArray:3,Mac,4,나눔스퀘어OTF_ac Bold
+NameArray:0,Win,1,NanumSquareOTF_ac Bold
+NameArray:0,Win,16,NanumSquareOTF_ac
+NameArray:3,Win,1,나눔스퀘어OTF_ac Bold
+NameArray:3,Win,16,나눔스퀘어OTF_ac
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTF_acEB
+FamilyName:NanumSquareOTF_ac
+StyleName:ExtraBold
+FullName:NanumSquareOTF_ac ExtraBold
+MenuName:나눔스퀘어OTF_ac ExtraBold
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF_ac
+StyleNameNative:ExtraBold
+FullNameNative:나눔스퀘어OTF_ac ExtraBold
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareOTF_acEB.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:318604
+FileModTime:1508901804
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF_ac ExtraBold
+NameArray:3,Mac,4,나눔스퀘어OTF_ac ExtraBold
+NameArray:0,Win,1,NanumSquareOTF_ac ExtraBold
+NameArray:0,Win,16,NanumSquareOTF_ac
+NameArray:3,Win,1,나눔스퀘어OTF_ac ExtraBold
+NameArray:3,Win,16,나눔스퀘어OTF_ac
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTF_acL
+FamilyName:NanumSquareOTF_ac
+StyleName:Light
+FullName:NanumSquareOTF_ac Light
+MenuName:나눔스퀘어OTF_ac Light
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF_ac
+StyleNameNative:Light
+FullNameNative:나눔스퀘어OTF_ac Light
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareOTF_acL.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:310196
+FileModTime:1508901804
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF_ac Light
+NameArray:3,Mac,4,나눔스퀘어OTF_ac Light
+NameArray:0,Win,1,NanumSquareOTF_ac Light
+NameArray:0,Win,16,NanumSquareOTF_ac
+NameArray:3,Win,1,나눔스퀘어OTF_ac Light
+NameArray:3,Win,16,나눔스퀘어OTF_ac
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTF_acR
+FamilyName:NanumSquareOTF_ac
+StyleName:Regular
+FullName:NanumSquareOTF_ac Regular
+MenuName:나눔스퀘어OTF_ac
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF_ac
+StyleNameNative:Regular
+FullNameNative:나눔스퀘어OTF_ac Regular
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareOTF_acR.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:310344
+FileModTime:1508901808
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF_ac Regular
+NameArray:3,Mac,4,나눔스퀘어OTF_ac Regular
+NameArray:3,Mac,18,나눔스퀘어OTF_ac
+NameArray:0,Win,1,NanumSquareOTF_ac
+NameArray:0,Win,16,NanumSquareOTF_ac
+NameArray:3,Win,1,나눔스퀘어OTF_ac
+NameArray:3,Win,16,나눔스퀘어OTF_ac
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NanumSquareOTFR
+FamilyName:NanumSquareOTF
+StyleName:Regular
+FullName:NanumSquareOTF Regular
+MenuName:나눔스퀘어OTF
+StyleBits:0
+FamilyNameNative:나눔스퀘어OTF
+StyleNameNative:Regular
+FullNameNative:나눔스퀘어OTF Regular
+WritingScript:Korean
+OutlineFileName:E:\dev\Workspaces\web_client_workspace\kh_front_project\Font\NanumSquareR.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:492584
+FileModTime:1474445892
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,NanumSquareOTF Regular
+NameArray:3,Mac,4,나눔스퀘어OTF Regular
+NameArray:3,Mac,18,나눔스퀘어OTF
+NameArray:0,Win,1,NanumSquareOTF
+NameArray:0,Win,16,NanumSquareOTF
+NameArray:3,Win,1,나눔스퀘어OTF
+NameArray:3,Win,16,나눔스퀘어OTF
+%EndFont
+

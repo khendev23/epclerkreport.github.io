@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>예라 포트폴리오</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <ul class="utility">
+            <li>
+            <li id="admin_li" style="display: none;">
+                <a href="./admin.html" id="admin_btn">ADMIN</a>
+            </li>
+            <li>
+            <li id="join_li">
+                <a href="./Join.html">JOIN</a>
+            </li>
+            </li>
+            <li>
+            <li id="login_li">
+                <a href="./Login.html">LOGIN</a>
+            </li>
+            <li id="logout_li" style="display: none;">
+                <a href="#" id="logout_btn">LOGOUT</a>
+            </li>
+        </ul>
+        <div class="nav">
+            <div class="profile_img">
+                <img src="./images/profile_img.png" alt="전예라 미모티콘">
+            </div>
+            <ul>
+                <li class="on">
+                    <a href="./index.html#section_1" class="font">HOME</a>
+                </li>
+                <li>
+                    <a href="./index.html#section_2" class="font">ABOUT</a>
+                </li>
+                <li>
+                    <a href="./index.html#section_3" class="font">INTEREST</a>
+                </li>
+                <li>
+                    <a href="./index.html#section_4" class="font">ROADMAP</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="bar_color">
+                <div class="progress_container">
+                    <div class="progress_bar"></div>
+                    <div class="hodu_img">
+                        <img src="./images/hodu_profile_img.png" alt="호두 프로필">
+                    </div>
+                </div>
+            </div>
+            <div class="Join">
+                <form action="javascript:alert('💜가입해주셔서 감사합니다💜');" name="memberFrm" class="alert">
+                    <div class="table">
+                        <h3 class="Join_title">💛회원가입💛</h3>
+                        <div class="Join_01">아이디 <span class="req">*</span></div>
+                        <td>
+                            <br>
+                            <input class="graph" type="text" name="userId" id="userId" value="test2">
+                            <span class="err" id="errId">아이디는 4~12자리, 첫 글자는 반드시 영소문자로 이루어지고, 숫자를 하나이상 포함해야
+                                합니다.</span>
+                        </td>
+                        <tr>
+                            <div class="Join_01">비밀번호 <span class="req">*</span></div>
+                            <td>
+                                <br>
+                                <input class="graph" type="password" name="pwd" id="pwd" value="test21!!!">
+                                <span class="err" id="errPw">비밀번호는 8~15자리, 숫자/문자/특수문자를 각각 하나이상 포함해야 합니다.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <div class="Join_01">비밀번호 확인 <span class="req">*</span></div>
+                            <td>
+                                <br>
+                                <input class="graph" type="password" id="pwdCheck" value="test21!!!">
+                                <span class="err" id="errpwdCheck">비밀번호가 일치하지 않습니다.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <div class="Join_01">이름 <span class="req">*</span></div>
+                            <td>
+                                <br>
+                                <input class="graph" type="text" name="userName" id="userName" value="테스트">
+                                <span class="err" id="errName">이름은 한글 2글자 이상 가능합니다.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <div class="Join_01">이메일 <span class="req">*</span></div>
+                            <td>
+                                <br>
+                                <input class="graph" type="email" name="email" id="email" value="test2@naver.com">
+                                <span class="err" id="errName">이메일을 잘못 입력하셨습니다.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <div class="Join_01">전화번호 <span class="req">*</span></div>
+                            <td>
+                                <br>
+                                <div class="Join_phone">
+                                    <input class="graph1" type="text" name="tel1" id="tel1" class="phone" value="010">
+                                    <span class="dash">-</span>
+                                    <input class="graph2" type="text" name="tel2" id="tel2" class="phone"
+                                        value="1234"><span class="dash">-</span>
+                                    <input class="graph3" type="text" name="tel3" id="tel3" class="phone" value="5678">
+                                    <span class="err" id="errName"><br>전화번호를 잘못 입력하셨습니다.</span>
+                                </div>
+                            </td>
+                            <div class="Join_01">방명록</div>
+                            <td>
+                                <br>
+                                <input class="graph" type="guestbook" name="guestbook" id="guestbook" value="반가워요">
+                            </td>
+                        </tr>
+                        <tr>
+                            <div class="btn-wrapper">
+                                <button type="button" id="join_btn"><span class="join_text">회원가입</span></button>
+                            </div>
+                        </tr>
+                    </div>
+                </form>
+            </div>
+            <script src="./js/jquery-3.7.0.js"></script>
+            <script src="./js/index.js"></script>
+            <script src="./js/login.js"></script>
+            <script src="./js/join.js"></script>
+            <script src="./js/admin.js"></script>
+        </div>
+</body>
+
+</html>
